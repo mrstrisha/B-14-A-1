@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Inter", sans-serif;
+}
+
+/* Header */
+.logo{
+    width: 134px;
+    height:44px;
+}
+.navlinks{
+    display: flex;
+   gap: 24px;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+.btn {
+    
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+  }
+
+/* Header END */
+
+/* Hero Section */
+
+header {
+background-image:
+linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,0)),
+linear-gradient(to left, rgba(0,0,0,.8), rgba(0,0,0,0)),
+url("./assets/banner.jpg");
+height: 90vh;
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+display: grid;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+}
+
+.header-contant{
+    display: grid;
+    text-align: center;
+    gap: 16px;
+    
+}
+.header-contant h1{
+    font-size: 70px;
+}
+header button{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 40%;
+}
+
+/* Hero section End */
+
+/* section */
+  section {
+    max-width: 1200px;
+   margin: 0 auto;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 80px ;
+    margin-bottom: 30px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2 ,1fr) ;
+    gap: 34px;
+    }
+
+.card-1{
+       border-radius: 14px;  
+       border: 1px solid #E5E7EB;
+       }
+
+.card img{
+        width: 100%;
+    }
+
+.card .card-Info{
+        
+        padding: 25px;
+    }
+  /* Section END  */
+
+ /* Section of Pricing card start   */
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .section-head{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 48px;
+}
+
+.price-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+   
+}
+.price-card{
+   
+    border: 1px solid #7e7b7b;
+    padding: 32px;
+    border-radius: 12px;
+
+}
+
+.features li{
+    margin-bottom: 10px;
+   font-weight: 500px;
+}
+
+
+.Default-btn {
+    width: 100%;
+    margin-top: 20px;
+  
+    color: #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border:1px solid #1D4ED8;
+}
+
+
+
+
